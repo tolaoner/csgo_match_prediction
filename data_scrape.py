@@ -39,6 +39,26 @@ def scrape_team_data(team_name,bool_json):
 		with open(f'{team_name}.csv','w', newline='') as csv_file:
 			wr=csv.writer(csv_file)
 			wr.writerows(data)
-scrape_team_data('INTZ', True)
-
-
+#scrape_team_data('INTZ',False)
+'''scrape_team_data('Natus Vincere',False)
+scrape_team_data('Astralis',False)
+scrape_team_data('FaZe',False)
+scrape_team_data('TYLOO',False)
+scrape_team_data('Liquid',False)
+scrape_team_data('G2',False)'''	
+#scrape_team_data('FURIA',False)
+#scrape_team_data('ATK',False)
+#scrape_team_data('ViCi',False)
+#scrape_team_data('MIBR',False)
+#scrape_team_data('mousesports',False)
+'''scrape_team_data('AVANGAR',False)
+scrape_team_data('Heroic',False)'''
+#scrape_team_data('Virtus.pro',False)
+#scrape_team_data('HellRaisers',False)
+'''scrape_team_data('BIG',False)
+scrape_team_data('NiP',False)
+scrape_team_data('fnatic',False)
+scrape_team_data('EHOME',False)
+scrape_team_data('Winstrike',False)
+scrape_team_data('eUnited',False)
+scrape_team_data('Evil Geniuses',False)'''
