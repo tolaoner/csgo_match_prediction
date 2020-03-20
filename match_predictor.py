@@ -97,7 +97,7 @@ def predict_match(team1,team2,match_map):
 		print(team1_won)
 	elif team1_score==team2_score:
 		print("Don't bet on this match!!")
-predict_match('Liquid','Natus Vincere','Mirage')
+predict_match('fnatic','Natus Vincere','Mirage')
 '''with open('Astralis.csv','r') as team1_file:
 	reader=csv.reader(team1_file)
 	for row in team1_file:
